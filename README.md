@@ -22,17 +22,6 @@ Open the local URL printed by Vite (usually http://localhost:5173).
 npm run build
 npm run preview
 ```
-
-## Customize before publishing
-
-Search the project for these placeholders:
-
-- `[Your Name]` — replace with your name.
-- `hello@example.com` — replace with your contact email.
-- `https://github.com/` — replace with your GitHub profile and individual project links.
-- `https://linkedin.com/` — replace with your LinkedIn profile.
-- Project titles, descriptions, technology tags, and skill levels in `src/App.jsx`.
-
 ## Project structure
 
 ```text
@@ -48,9 +37,3 @@ package.json
 ## 3D scene
 
 The hero scene is built from procedural Three.js geometry, so no external 3D model files are required. It includes a floating island, trees, a small guild tower, stars, particles, lighting, and gentle auto-rotation. Visitors can drag to rotate the scene.
-
-## Notes
-
-- The contact link uses `mailto:`; update it before launch.
-- Project links are placeholders until you replace them.
-- The current 3D scene is intentionally lightweight and responsive. You can later replace the procedural island with GLB/GLTF models, add character customization, sound, quests, or a full explorable world.
